@@ -1,0 +1,2 @@
+1. The problem is that num1 and num2 are being passed as string values, so result is being calculated as a concatenation of strings.
+2. I fixed the bug by parsing both numbers as float values before adding them to ensure the result is a number.
